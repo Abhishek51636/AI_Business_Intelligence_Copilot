@@ -240,6 +240,9 @@ This project demonstrates practical implementation of:
 ## 👨‍💻 Author
 
 Abhishek
+
 AI Business Intelligence Copilot
+
 Built with Python, Streamlit, Machine Learning, OpenRouter, and Large Language Models (LLMs).
+
 ⭐ If you found this project useful, consider giving it a star on GitHub.
