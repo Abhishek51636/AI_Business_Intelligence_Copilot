@@ -1,9 +1,11 @@
 import streamlit as st
 from openai import OpenAI
 
-# -----------------------------
-# OPENROUTER CLIENT
-# -----------------------------
+if "OPENROUTER_API_KEY" not in st.secrets:
+    st.error(
+        "OPENROUTER_API_KEY not found in Streamlit Secrets"
+    )
+    st.stop()
 
 client = OpenAI(
     api_key=st.secrets["OPENROUTER_API_KEY"],
