@@ -87,7 +87,7 @@ font-weight:bold;
 color:white;
 margin-bottom:15px;
 ">
-🤖 Powered by Ollama
+🤖 Powered by OpenAI
 </div>
 """,
 unsafe_allow_html=True
