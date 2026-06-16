@@ -1,12 +1,12 @@
 import streamlit as st
 import pandas as pd
-from modules.dataset import dataset_module
-from modules.cleaning import cleaning_module
-from modules.visualization import visualization_module
-from modules.ml import ml_module
-from modules.insights import insights_module
-from modules.reports import reports_module
-from modules.ai_analyst import ai_analyst_module
+from dataset import dataset_module
+from cleaning import cleaning_module
+from visualization import visualization_module
+from ml import ml_module
+from insights import insights_module
+from reports import reports_module
+from ai_analyst import ai_analyst_module
 
 st.set_page_config(
     page_title="AI Business Intelligence Copilot",
